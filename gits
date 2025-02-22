@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m "Initial commit with project structure and sample code"
+git remote add origin https://github.com/yourusername/NetSuperAdapterTool.git
+git push -u origin main
