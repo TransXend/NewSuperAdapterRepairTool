@@ -1,0 +1,17 @@
+using System;
+using System.Windows.Forms;
+
+namespace NetSuperAdapterTool
+{
+    static class Program
+    {
+        [STAThread]
+        static void Main()
+        {
+            // Enable visual styles and run the main form.
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainForm());
+        }
+    }
+}
